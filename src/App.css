@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, sans-serif;
+}
+
+body {
+  background-color: #f3f4f6;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #4b5563;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.fetch-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.fetch-btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.content-area {
+  margin-top: 24px;
+  min-height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  color: #4b5563;
+  font-size: 14px;
+}
+
+.setup {
+  font-size: 14px;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.punchline {
+  font-size: 14px;
+  color: #111827;
+}
+
+.error-text {
+  color: #ef4444;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.retry-btn {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+}
